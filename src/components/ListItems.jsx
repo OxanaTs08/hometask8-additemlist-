@@ -1,5 +1,6 @@
 import { Stack, Button, List, ListItemText, TextField } from '@mui/material';
 import { useState, useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
 
 const ListItems = () => {
   const [items, setItems] = useState([]);
@@ -43,6 +44,9 @@ const ListItems = () => {
           ))
         )}
       </List>
+      <NavLink to="/">
+        <Button variant="contained">Your Profile</Button>
+      </NavLink>
     </Stack>
   );
 };

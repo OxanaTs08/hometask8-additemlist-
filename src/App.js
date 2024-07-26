@@ -1,9 +1,9 @@
-import ListItems from './components/ListItems';
+import AppRouter from './AppRouter';
 
 function App() {
   return (
     <div className="App">
-      <ListItems />
+      <AppRouter />
     </div>
   );
 }
